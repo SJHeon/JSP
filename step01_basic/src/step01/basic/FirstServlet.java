@@ -19,21 +19,21 @@ public class FirstServlet extends HttpServlet {
      * Default constructor. 
      */
     public FirstServlet() {
-        // TODO Auto-generated constructor stub
+    	System.out.println("FirstServlet()");
     }
 
 	/**
 	 * @see Servlet#init(ServletConfig)
 	 */
 	public void init(ServletConfig config) throws ServletException {
-		// TODO Auto-generated method stub
+		System.out.println("init()");
 	}
 
 	/**
 	 * @see Servlet#destroy()
 	 */
 	public void destroy() {
-		// TODO Auto-generated method stub
+		System.out.println("destroy");
 	}
 
 	/**
